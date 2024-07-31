@@ -6,7 +6,7 @@ const Offers = () => {
   const [offers, setOffers] = useState([]);
 
   useEffect(() => {
-    axios.get('/offers')
+    axios.get()
       .then((response) => {
         setOffers(response.data);
       })

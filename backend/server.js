@@ -11,10 +11,7 @@ app.use(express.json());
 app.use('/assets', express.static(path.join(__dirname, 'assets'))); // Serve static files from /assets
 
 // Database connection
-mongoose.connect('mongodb+srv://group_11:12345mdb@cluster0.ihxkq.mongodb.net/travelPlanner', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb+srv://group_11:12345mdb@cluster0.ihxkq.mongodb.net/travelPlanner?retryWrites=true&w=majority');
 
 // Routes
 app.use('/api', require('./routes'));
