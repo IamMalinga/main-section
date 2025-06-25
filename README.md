@@ -55,5 +55,5 @@ An all-in-one travel planning web application designed for travelers in Sri Lank
 - Jest (Unit testing)
 - Figma, Photoshop, Lucidchart (Design and architecture diagrams)
 
-## 🗂️ Folder Structure (Monorepo)
+
 
