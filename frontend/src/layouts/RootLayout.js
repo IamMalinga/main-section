@@ -2,22 +2,25 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Outlet } from 'react-router-dom';
+import {Box} from "@mui/material";
+import Breadcrumb from '../components/Breadcrumb';
 
 
 
 const RootLayout = () => {
     return(
-    <div className='root-layout'>
-        <header>
+    <Box>
+        <Box>
             <Header />
-        </header>
-        <main>
+        </Box>
+        <Box >
+        <Breadcrumb />
             <Outlet />
-        </main>
-        <footer>
+        </Box>
+        <Box>
             <Footer />
-        </footer>
-    </div>
+        </Box>
+    </Box>
     )
 };
 
