@@ -55,5 +55,5 @@ An all-in-one travel planning web application designed for travelers in Sri Lank
 - Jest (Unit testing)
 - Figma, Photoshop, Lucidchart (Design and architecture diagrams)
 
-
-
+---
+▶️ Watch the project in action on YouTube: [Project Demo](https://youtu.be/VibpNQ6gLrk) 
